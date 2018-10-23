@@ -7,7 +7,7 @@ public section.
 
   class-methods VALIDATE_DATE_FORMAT_SPEC
     importing
-      !I_DATE_FORMAT type ABAP_BOOL
+      !I_DATE_FORMAT type CHAR4
     raising
       ZCX_TEXT2TAB_ERROR .
 protected section.
