@@ -28,7 +28,7 @@ method VALIDATE_DATE_FORMAT_SPEC.
       exporting
         methname = 'CREATE'
         msg      = |Unsupported date format { i_date_format }|
-        code     = 'UD'. "#EC NOTEXT
+        code     = 'UD'. "#EC NOTEXT -> TEST1
   endif.
 endmethod.
 ENDCLASS.
